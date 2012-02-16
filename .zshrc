@@ -27,3 +27,17 @@ unsetopt auto_name_dirs
 
 # Customize to your needs...
 export PATH=/usr/local/bin:$PATH
+export EDITOR=emacs
+
+alias git="nocorrect git"
+
+alias vagrant="nocorrect vagrant"
+alias v="vagrant"
+alias vp="vagrant provision "
+alias vs="vagrant ssh "
+
+alias alias knife="nocorrect knife"
+alias ks="knife ssh -a name"
+alias ksn="knife search node"
+alias knr="knife node run_list"
+
